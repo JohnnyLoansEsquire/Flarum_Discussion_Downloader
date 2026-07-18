@@ -1,5 +1,7 @@
 A simple Bash script that fetches an entire discussion thread from a [Flarum](https://flarum.org/) forum and combines all of its posts into a single, searchable `.txt` file.
 
+This was vibe coded and reviewed.
+
 Features:
 - Rerun Continuation: Comments are saved in the Posts directory for a later run -- no redownloading. (Uncomment the lines at the bottom to change this)
 - Local Timezone Conversion
