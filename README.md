@@ -97,9 +97,6 @@ File Structure After:
 ```
 .
 ├── flarum_discussion_40427
-│   ├── all_posts_sorted.json
-│   ├── discussion_40427.json
-│   ├── post_ids.txt
 │   └── posts
 │       ├── post_254286.json
 │       ├── post_254297.json

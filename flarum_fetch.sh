@@ -170,3 +170,12 @@ echo "All done."
 echo "Combined, searchable text file created at:"
 echo "  $(cd .. && pwd)/${SAFE_TITLE}_${DISCUSSION_ID}.txt"
 echo "======================================================================"
+
+# Comment the next 3 lines to retain intermediary files for debugging
+cd ..
+rm -- "$WORKDIR"/*.json
+rm -- "$WORKDIR"/*.txt
+
+# Uncomment the next 2 lines to delete all temp files (Later runs on the same discussion requires downloading each comment again)
+#cd ..
+#rm -rf -- "$WORKDIR"
